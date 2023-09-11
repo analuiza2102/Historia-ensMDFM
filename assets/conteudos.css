@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+.container-conteudos {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background: rgba(250, 250, 250, 0.10);
+}
+
+.heading-conteudos{
+    width: 100%;
+    
+}
+
+.heading-conteudos h4{
+    color: #FFF;
+    text-align: center;
+    font-family:  'Lato', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.5px;
+}
+
+.heading-conteudos img{
+    border: none;
+    width: auto;
+    padding: 1rem;
+}
+
+.service-item h3{
+    color: #FFF;
+    font-family:  'Lato', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px; /* 318.182% */
+    padding: 1rem;
+}
+
+
+.service-item table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    background: rgba(28, 22, 0, 0.654);
+  }
+
+  .service-item  th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    color:#eae7e7;
+    font-family:  'Lato', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 160% */
+  }
+
+  .service-item  th {
+    background-color: rgba(61, 44, 3, 0.705);
+  }
+
+
+  .pdf-icon {
+    margin: 0.5rem;
+    color: #320909; /* Cor do ícone de PDF (vermelho) */
+    cursor: pointer; /* Tornar o ícone clicável */
+    display: flex;
+    justify-content: space-around;
+  }
+
+  
